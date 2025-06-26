@@ -1,0 +1,85 @@
+.sports1 {
+  display: flex;
+  color: #e2de57;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  background: linear-gradient(rgb(46, 82, 68), #9ae2a9);
+  padding-bottom: 2.5rem; /* 40px -> 2.5rem */
+}
+.sports {
+  padding-top: 13vw; /* 200px -> 13vw (responsive to viewport width) */
+}
+.part1 {
+  width: 70%;
+  margin-top: 2.5rem; /* 40px -> 2.5rem */
+  padding: 2rem 2.5rem; /* 30px 40px -> 2rem 2.5rem */
+  border-radius: 0.75rem; /* 12px -> 0.75rem */
+  background: #133025;
+  box-shadow: 0 0.25rem 1.5rem rgba(19, 48, 37, 0.12); /* 4px 24px -> 0.25rem 1.5rem */
+}
+.sports h1 {
+  text-align: center;
+  background-color: rgba(46, 82, 68, 0.7);
+}
+.topic {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-variant: small-caps;
+  font-size: x-large;
+  margin-top: 2em; /* 30px -> 2em */
+  margin-bottom: 1.2em; /* 18px -> 1.2em */
+  color: #e2de57;
+}
+
+.pt1 ul {
+  margin-left: 1.5em; /* 20px -> 1.5em */
+  margin-bottom: 1.5em; /* 24px -> 1.5em */
+  color: #fff700;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.pt1 li {
+  margin-bottom: 0.7em; /* 10px -> 0.7em */
+  list-style: disc inside;
+}
+
+.pt1 strong {
+  color: #9ae2a9;
+}
+
+.pt1 h3 {
+  margin-top: 2em; /* 32px -> 2em */
+  margin-bottom: 0.8em; /* 12px -> 0.8em */
+}
+
+.pt1 p {
+  color: #e2de57;
+  font-size: 1.08rem;
+  margin-bottom: 1.2em; /* 18px -> 1.2em */
+}
+
+@media (max-width: 900px) {
+  .pt1 {
+    width: 95%;
+    padding: 1.2rem 0.4rem; /* 18px 6px -> 1.2rem 0.4rem */
+  }
+  .hero .name {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .pt1 {
+    width: 100%;
+    padding: 0.5rem 0.13rem; /* 8px 2px -> 0.5rem 0.13rem */
+  }
+  .hero {
+    min-height: 6.25rem; /* 100px -> 6.25rem */
+    padding: 0.5rem 0.13rem; /* 8px 2px -> 0.5rem 0.13rem */
+  }
+  .name {
+    font-size: 1rem;
+    padding: 0.5rem; /* 8px -> 0.5rem */
+  }
+}

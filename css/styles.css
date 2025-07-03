@@ -7,29 +7,6 @@
 body{
     margin:0;
 }
-.hamburger {
-  display: none;
-  font-size: 2rem;
-  cursor: pointer;
-  color: white;
-}
-
-@media (max-width: 768px) {
-  .hamburger {
-    display: block;
-  }
-
-  .navitems {
-    display: none;
-    flex-direction: column;
-    background: #222;
-    padding: 1rem;
-  }
-
-  .navitems.show {
-    display: flex;
-  }
-}
 p{
     text-align: center;
 }

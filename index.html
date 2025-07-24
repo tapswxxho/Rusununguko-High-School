@@ -9,14 +9,13 @@
     <link rel="icon" type="image/png" href="images/logo.png">
   </head>
   <body>
-    <SpeedInsights />
     <nav id="navbar">
         <div class="navsec">
           <div>
             <img class="logo" src="images/logo.png">
           </div>
           <div class="badge">
-          <span><h1>RUSUNUNGUKO HIGH SCHOOL</h1></span>
+          <span><h1>RUSUNUNGUKO ZIMFEP HIGH SCHOOL</h1></span>
           </div>
           <div>
             <img class="logo" src="images/7.png">
@@ -28,124 +27,158 @@
             <li><a href="about.html">About</a></li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="sports.html">Sports</a></li>
-            <li><a href="#news-popup" onclick="toggleNews(); return false;">News</a></li>
+            <li><a href="#news-popup">News</a></li>
             <li><a href="#calendar">Calender</a></li>
             <li><a href="contact.html"">Contact</a></li>
       </ul></nav>
+      <div class="main-wrapper">
+        
     <main>
-      <div class="hero">
-        <h1 class="name">
-          EDUCATION WITH PRODUCTION<br />
-          <span id="small">Displayed by Discipline and Ingenuity</span>
-        </h1>
-      </div>
+      <section class="hero">
+        <div class="hero-content">
+                    <h2>Welcome Where Excellence Begins</h2>
+            <p>With discipline and ingenuity, we stand in<br>
+               unity—dedicated, innovative, and driven by excellence.</p>
+            <button>News</button>
+            <button>Contact</button>
+        </div>
+      </section>
     </main>
-<div id="news-popup" class="news-popup" style="display: none;">
-  <div class="news-header">
-    <p>News & Events</p>
-    <span class="close-btn" onclick="document.getElementById('news-popup').style.display='none'">✖</span>
+           <div class="info-boxes">
+  <div class="info-box" id="info-box1">
+    <img class="smallimg" src="images/Blog-Header-01.jpg">
+    <h3>Campus Life</h3>
+    <p>Experience a vibrant campus life at Rusununguko High School,
+       where students engage in diverse clubs, cultural activities,
+        and community events that foster teamwork, leadership, and 
+        lifelong friendships.</p>
+    <button href="#">Read more</button>
   </div>
-  <div class="news-body">
-    <p><strong>🎓 June 2025:</strong> Mid-Year Exams Begin on 08 July</p>
-    <p><strong>🏆 May 2025:</strong> Soccer Trophy Victory! won against Goromonzi FC</p>
-    <p><strong>📢 April 2025:</strong> New Science Laboratory commissioned to enhance STEM learning.</p>
-    <p><strong>🎤 March 2025:</strong> Annual Speech & Prize-Giving Day held with guest of honor from the Ministry of Education.</p>
-    <p><strong>🌱 February 2025:</strong> Environmental Club launched a tree-planting campaign on campus.</p>
-    <p><strong>🏅 January 2025:</strong> Rusununguko High School ranked among top 10 schools in Mashonaland East for A-Level results.</p>
+  <div class="info-box" id="info-box2">
+    <img class="smallimg" src="images/gettyimages-171306436-612x612.jpg">
+    <h3>News</h3>
+    <p>Stay updated with the latest news, events, and achievements 
+      at Rusununguko High School. Discover student successes, upcoming
+       programs, and important announcements from our vibrant school community.</p>
+    <button href="#">Read more</button>
+  </div>
+  <div class="info-box" id="info-box3">
+    <img class="smallimg" src="images/istockphoto-1000887536-612x612-1.jpg">
+    <h3>Sports And Arts</h3>
+    <p>Rusununguko High School offers dynamic sports and arts programs,
+       encouraging students to excel in athletics, music, drama, and
+        visual arts while building teamwork, leadership, creative, and
+         confidence skills.</p>
+    <button href="#">Read more</button>
   </div>
 </div>
-<div class="popup-btn">
-  <button class="popup-button cta-button" onclick="toggleNews()">Show News</button>
 </div>
     <div class="section1">
+      <div class="Calendar">
+        <h2 class="boxheader">CALENDER</h2>
+        <div class="Calender-group">
+  <div class="calendar-event">
+    <div class="calendar-date">
+      <span class="calendar-month">JUL</span>
+      <span class="calendar-day">11</span>
+    </div>
+    <div class="calendar-details">
+      <h4>Midyear Examinations</h4>
+      <p>Location: Rusununguko High</p>
+    </div>
+  </div>
+  <div class="calendar-event">
+    <div class="calendar-date">
+      <span class="calendar-month">JUL</span>
+      <span class="calendar-day">18</span>
+    </div>
+    <div class="calendar-details">
+      <h4>Robotics Competitions</h4>
+      <p>Location:Chinhoyi</p>
+    </div>
+  </div>
+  <div class="calendar-event">
+    <div class="calendar-date">
+      <span class="calendar-month">JUL</span>
+      <span class="calendar-day">30</span>
+    </div>
+    <div class="calendar-details">
+      <h4>Soccer</h4>
+      <p>Location: Rusununguko High</p>
+    </div>
+  </div>
+  <div class="calendar-event">
+    <div class="calendar-date">
+      <span class="calendar-month">Aug</span>
+      <span class="calendar-day">06</span>
+    </div>
+    <div class="calendar-details">
+      <h4>Consultation</h4>
+      <p>Location: Rusununguko High</p>
+    </div>
+  </div>
+</div>
+      </div>
       <section class="pt1">
-        <h3 class="topic">About Us</h3>
-        <p>
-          Rusununguko High School, located in Ruwa, Zimbabwe, was established on
-          March 7, 1981. Initially founded to accommodate ex-combatants and
-          refugees, the mixed government school has evolved into one of the
-          top-ranking institutions in Mashonaland East. Our school holds
-          history......<a href="about.html">Read More</a>
-        </p>
-        <h3 class="topic">What we offer</h3>
-        <h4>Curriculum Overview</h4>
-        <p>
-          Rusununguko High School offers a curriculum that adheres to the
-          Zimbabwe School Examinations Council (ZIMSEC) guidelines, ensuring
-          that students are prepared for both Ordinary Level (O-Level) and
-          Advanced Level (A-Level) examinations. The curriculum is designed to
-          provide a comprehensive education that equips students with essential
-          knowledge and skills.
-        </p>
-        <h4>Subjects Offered:</h4>
-        <p>
-          Core Subjects: The school includes Mathematics, English Language and
-          Literature, and Sciences (Biology, Chemistry, Physics) as foundational
-          subjects, which are mandatory for O-Level. Technical and Practical
-          Subjects: Students can also choose from subjects like Agriculture,
-          Woodwork, Metal Work, Fashion and Fabrics, and Home Economics. These
-          subjects aim to enhance practical skills alongside theoretical
-          knowledge. Humanities and Social Sciences: The curriculum incorporates
-          Shona, History, and Geography, reflecting ZIMSEC’s emphasis on a
-          well-rounded education that includes cultural and societal
-          understanding.
-        </p>
-        <h4>Historical Performance</h4>
-        <p>
-          Rusununguko High School has consistently demonstrated exceptional
-          academic performance over the years, particularly in its A-Level
-          results. Notable achievements include: 2014: The school celebrated a
-          remarkable accomplishment with 14 A grades achieved by its
-          top-performing student.....<a href="about.html">Read More</a>
+        <h3 class="topic">~SUNUNGUKA</h3>
+        <p>Welcome to Rusununguko High School, a beacon of academic
+           excellence and holistic development in Ruwa, Zimbabwe.
+            Established in 1981, our institution was founded with a 
+            vision to empower ex-combatants and refugees, and has since
+             grown into one of Mashonaland East’s top-ranking schools. At
+              Rusununguko, we believe that education is the key to unlocking
+               potential and shaping future leaders. Our dedicated staff
+                and vibrant student community work together to create an
+                 environment where discipline, ingenuity, and a passion for learning thrive.
+We offer a comprehensive curriculum aligned with the Zimbabwe School Examinations Council 
+(ZIMSEC) standards, preparing students for both Ordinary Level (O-Level) and
+ Advanced Level (A-Level) examinations. Our academic programs are complemented
+  by a wide range of technical, practical, and extracurricular activities, ensuring 
+  that every learner receives a well-rounded education. From state-of-the-art science 
+  laboratories to dynamic sports teams and cultural clubs, Rusununguko High School 
+  provides opportunities for students to explore their interests and develop essential life skills.
+We invite you to discover more about our rich history, outstanding achievements, 
+and the supportive community that makes Rusununguko High School a place where every
+ student can shine. Join us as we continue to inspire, educate, and empower the next generation.
         </p>
       </section>
     </div>
-    <div class="google-maps-section">
-      <section class="pt1-5">
-        <h3 class="google-maps-title">Our Location</h3>
-        <p class="google-maps-description">
-          Rusununguko High School is situated in Ruwa, Zimbabwe, providing students with a serene and accessible learning environment. Visit us to experience our vibrant campus and welcoming community.
-        </p>
-        <div class="google-maps-iframe-container">
+        </div>
+      </section>
+    </div>
+<div class="latest-news-section">
+  <h2 class="news-header">~Latest News</h2>
+  <a href="#"><div class="news-boxes">
+    <div class="news-box" id="news-box1">
+      <h3>Robotics Team Wins Regional Competition</h3>
+      <p>Congratulations to our Robotics Club for 
+        securing first place at the Chinhoyi Regional Robotics Competition!</p>
+    </div>
+    <div class="news-box" id="news-box2">
+      <h3>New Science Lab Opens</h3>
+      <p>We are excited to announce the opening of 
+        our state-of-the-art science laboratory, enhancing
+         practical learning for all students.</p>
+    </div>
+    <div class="news-box" id="news-box3">
+      <h3>Soccer Team Advances to Finals</h3>
+      <p>Our soccer team has advanced to the provincial
+         finals after a thrilling victory last weekend. 
+         Come support our players!</p>
+    </div>
+  </div></a>
+</div> 
+<div class="border">
           <iframe class="google-maps-iframe"
-          src="https://www.google.com/maps?q=Rusununguko+High+School,+Ruwa,+Zimbabwe&output=embed"
+ src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1212.748799427403!2d31.432767254593585!3d-17.992150625828675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931ef68b5ce31ad%3A0x862d45c72683ef66!2sRusununguko%20High%20School!5e1!3m2!1sen!2szw!4v1753155687345!5m2!1sen!2szw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
           width="100%"
           height="350"
           style="border:0;"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-          title="Rusununguko High School Location"
-          ></iframe>
-        </div>
-      </section>
-    </div>
-    <div class="section2">
-        <span id="gallery"><h1>Collection</h1></span>
-      <section class="pt3">
-        <div class="bigbox">
-          <div class="smallbox">
-        <a href="gallery.html">
-          <img class="small pic point" src="images/4.jpg" />
-        </a>
-        <a href="gallery.html">
-          <img class="point pic" src="images/2.jpg" />
-        </a>
+          title="Rusununguko High School Location"></iframe>
           </div>
-          <div class="smallbox2">
-        <a href="gallery.html">
-          <img class="pic point" src="images/6.webp" />
-        </a>
-        <a href="gallery.html">
-          <img class="pic point" src="images/5.webp" />
-        </a>
-          </div>
-        </div>
-      </section>
-          </div>
-        </div>
-      </section>
-    </div>
     <footer>
       <article class="content-static">
         <section class="column1">
@@ -173,7 +206,8 @@
            Please note that the our content is researched continuously 
            and the data is updated regularly. Although we endeavour to keep 
            our information as up to date as possible, this is not always possible 
-          to the high volume of listings on our database. Please help us by notifying us of any incorrect or outdated information.
+          to the high volume of listings on our database. Please help us by 
+          notifying us of any incorrect or outdated information.
         </section>
     </article>
     <hr>
